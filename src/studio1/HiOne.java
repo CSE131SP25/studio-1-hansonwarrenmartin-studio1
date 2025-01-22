@@ -10,8 +10,12 @@ public class HiOne {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
+		
+		System.out.println("What's your name?");
 		String name = in.nextLine();
+
+		System.out.println("Hi " + name + " how are you?");
+		String mood = in.nextLine();
 		//
 		// Below this line, enter code so that this program's output says
 		//      Hi, Pat.  How are you?
